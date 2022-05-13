@@ -1,4 +1,5 @@
 import {defineComponent, ref} from "vue";
+import {RouterView} from "vue-router";
 
 export const App = defineComponent({
     setup(){
@@ -9,9 +10,10 @@ export const App = defineComponent({
 
         return ()=>(<>
             <div>
-                {count.value}
+                <router-link to={"/"}>home</router-link>
+                <router-link to={"/about"}>about</router-link>
             </div>
-            <button onClick={onClick}>123</button>
+            <RouterView />
         </>)
     }
 })

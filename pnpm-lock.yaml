@@ -1,16 +1,20 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/node': ^17.0.33
   '@vitejs/plugin-vue': 2.3.1
   '@vitejs/plugin-vue-jsx': ^1.3.10
   typescript: 4.6.3
   vite: 2.9.1
   vue: 3.2.31
+  vue-router: ^4.0.15
   vue-tsc: 0.29.8
 
 dependencies:
+  '@types/node': registry.npmmirror.com/@types/node/17.0.33
   '@vitejs/plugin-vue-jsx': registry.npmmirror.com/@vitejs/plugin-vue-jsx/1.3.10
   vue: registry.npmmirror.com/vue/3.2.31
+  vue-router: registry.npmmirror.com/vue-router/4.0.15_vue@3.2.31
 
 devDependencies:
   '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/2.3.1_vite@2.9.1+vue@3.2.31
@@ -453,6 +457,12 @@ packages:
       picomatch: registry.npmmirror.com/picomatch/2.3.1
     dev: false
 
+  registry.npmmirror.com/@types/node/17.0.33:
+    resolution: {integrity: sha512-miWq2m2FiQZmaHfdZNcbpp9PuXg34W5JZ5CrJ/BaS70VuhoJENBEQybeiYSaPBRNq6KQGnjfEnc/F3PN++D+XQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-17.0.33.tgz}
+    name: '@types/node'
+    version: 17.0.33
+    dev: false
+
   registry.npmmirror.com/@vitejs/plugin-vue-jsx/1.3.10:
     resolution: {integrity: sha512-Cf5zznh4yNMiEMBfTOztaDVDmK1XXfgxClzOSUVUc8WAmHzogrCUeM8B05ABzuGtg0D1amfng+mUmSIOFGP3Pw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vitejs/plugin-vue-jsx/-/plugin-vue-jsx-1.3.10.tgz}
     name: '@vitejs/plugin-vue-jsx'
@@ -648,6 +658,12 @@ packages:
     dependencies:
       '@vue/compiler-dom': registry.npmmirror.com/@vue/compiler-dom/3.2.31
       '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.31
+    dev: false
+
+  registry.npmmirror.com/@vue/devtools-api/6.1.4:
+    resolution: {integrity: sha512-IiA0SvDrJEgXvVxjNkHPFfDx6SXw0b/TUkqMcDZWNg9fnCAHbTpoo59YfJ9QLFkwa3raau5vSlRVzMSLDnfdtQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/devtools-api/-/devtools-api-6.1.4.tgz}
+    name: '@vue/devtools-api'
+    version: 6.1.4
     dev: false
 
   registry.npmmirror.com/@vue/reactivity-transform/3.2.31:
@@ -1868,6 +1884,18 @@ packages:
       vscode-pug-languageservice: registry.npmmirror.com/vscode-pug-languageservice/0.29.8
       vscode-typescript-languageservice: registry.npmmirror.com/vscode-typescript-languageservice/0.29.8
     dev: true
+
+  registry.npmmirror.com/vue-router/4.0.15_vue@3.2.31:
+    resolution: {integrity: sha512-xa+pIN9ZqORdIW1MkN2+d9Ui2pCM1b/UMgwYUCZOiFYHAvz/slKKBDha8DLrh5aCG/RibtrpyhKjKOZ85tYyWg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-router/-/vue-router-4.0.15.tgz}
+    id: registry.npmmirror.com/vue-router/4.0.15
+    name: vue-router
+    version: 4.0.15
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': registry.npmmirror.com/@vue/devtools-api/6.1.4
+      vue: registry.npmmirror.com/vue/3.2.31
+    dev: false
 
   registry.npmmirror.com/vue-tsc/0.29.8_typescript@4.6.3:
     resolution: {integrity: sha512-pT0wLRjvRuSmB+J4WJT6uuV9mO0KtSSXEAtaVXZQzyk5+DJdbLIQTbRce/TXSkfqt1l1WogO78RjtOJFiMCgfQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-tsc/-/vue-tsc-0.29.8.tgz}
